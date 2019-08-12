@@ -11,3 +11,4 @@ Cargo.lock
 hello-world/target/
 */target/
 *.idea/
+*.target/

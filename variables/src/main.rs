@@ -1,4 +1,8 @@
 fn main() {
-    let strarr = ["nmsl";5];
-    println!("{:?}",strarr);
+    let a = 1..4;
+
+    for number in a.rev() {
+        println!("{}!", number);
+    }
+    println!("LIFTOFF!!!");
 }
