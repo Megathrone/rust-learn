@@ -1,11 +1,9 @@
 fn main() {
-    let s = String::from("hello");
-   
-    println!("{}",s);
-    nmsl(s);
-   
+    let s1: String = String::from("hello world");
+    let ret = cal_length(&s1);
+    println!("{}", ret);
 }
 
-fn nmsl(str: String) {
-    println!("{}",str);
+fn cal_length(s: &String) -> usize {
+    s.len()
 }
